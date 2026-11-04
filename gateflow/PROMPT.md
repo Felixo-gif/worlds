@@ -1,0 +1,11 @@
+Build a single-file interactive web app (HTML, CSS and JS) using Three.js from a CDN: a live 3D airport operations dashboard called "Gateflow" for "Sanjai International Airport" that feels like a strategy game.
+
+WORLD: a low-poly isometric airport built entirely in code, no external models. Terminal with glass facade and 5 gates with jet bridges, a runway with edge lights, taxiways, control tower, cargo terminal with a freighter and ULD stacks, an open MRO hangar, a landside forecourt with a drop-off loop, car parks, a main road, palms and trees. A320-style planes with cabin windows, cockpit, winglets, engines, a tail logo and retractable gear. Clean toy-like clay look, soft shadows, one accent colour (#FF6A1A sunset orange) on warm off-white.
+
+LIFE: two aircraft cycle forever on a shared schedule: land, taxi to a gate, run a turnaround, get pushed back by a tug that drives in, attaches, pushes and returns to its bay, taxi out and take off. Baggage tugs with carts, fuel dispensers, catering trucks whose box lifts to the door, crew buses and cargo forklifts follow curved routes and give way to aircraft and each other so nothing ever overlaps. Landside taxis, auto-rickshaws, cars and an airport bus follow car-following traffic and stop at the kerb.
+
+INTERACTION: drag to pan, right-drag to rotate, scroll or pinch to zoom. Click any aircraft, vehicle or stand: the camera glides to it and follows if it moves, a pulsing ring and a floating label mark it, and a glass detail panel shows live stats. An area switcher flies between Terminal, Cargo, Hangar, Runway and Landside.
+
+DASHBOARD: frosted glass panels over the 3D view: top bar (logo, search for any object, area switcher, weather menu, live clock, alerts, day/night toggle, user), 3 KPI cards, a right detail panel, a bottom-left turnaround tracker (On block, Deboard, Clean and cater, Fuel, Board, Pushback with times) and a tabbed live table (Stands, Vehicles, Flights). Realistic data: flight numbers, registrations, fuel in tonnes, pax counts. No lorem ipsum.
+
+EXTRAS: a seasons menu (Summer, Monsoon with rain, wet tarmac and lightning, Winter fog with low visibility, Snow with a de-icing truck spraying a plane) that changes light, fog, materials and particles; animated day/night with glowing windows, runway lights and floodlights; works on mobile with a bottom-sheet panel.
